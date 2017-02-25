@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div id="about" class="parallax-container">
+<div id="about" class="parallax-container section scrollspy">
   <div class="parallax"><img src="{{ '/img/NavyMap.jpg' | prepend: site.url }}"></div>
   <div class="container">
         <img id="logo" src="{{ '/img/TMF_HeaderLogo.png' | prepend: site.url }}" alt="The Master's Fellowship" class="center">
@@ -22,10 +22,10 @@ and bright young people, but to also reinvest back into your local church. Membe
   <p class="flow-text">Through this a liated network, we intend to not only continue our ministry of partnering with local churches to train pastors
 and bright young people, but to also reinvest back into your local church. Members of this network will receive a number of bene ts from The Master’s University and Seminary.</p>
 </div>
-<div class="parallax-container" style="height: auto">
+<div id="benefits" class="parallax-container section scrollspy" style="height: auto">
   <div class="parallax"><img src="{{'/img/GoldMap.jpg' | prepend: site.url}}"></div>
   <div class="container">
-        <h1 id="benefits" class="black-text center uppercase">Some Benefits Include:</h1>
+        <h1 class="black-text center uppercase">Some Benefits Include:</h1>
         <ul class="browser-default">
           <li class="white-text flow-text">Inclusion of your church name/website on The Master's Fellowship website</li>
           <li class="white-text flow-text">Recommended resources from John MacArthur and various faculty members</li>
@@ -39,7 +39,7 @@ and bright young people, but to also reinvest back into your local church. Membe
 </div>
 <div class="container">
   <div class="col s6">
-    <h1 id="signup" class="center">Sign Up Today</h1>
+    <h1 id="signup" class="center section scrollspy">Sign Up Today</h1>
   </div>
   {% include contact.html %}
   <p class="uppercase flow-text">I AM BOUND AND COMPELLED BY LOVE FOR THE TRUTH, WRITTEN AND INCARNATE. FOR ALL THOSE WHO SHARE THAT BLESSED BONDAGE AND PASSION I CALL YOU TO COME TOGETHER WITH ME IN THE MASTER’S FELLOWSHIP.</p>
@@ -49,6 +49,7 @@ and bright young people, but to also reinvest back into your local church. Membe
 <script type="text/javascript">
 $(document).ready(function(){
   $('.parallax').parallax();
+  $('.scrollspy').scrollSpy();
 
 });
 </script>

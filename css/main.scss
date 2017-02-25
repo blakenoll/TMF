@@ -1,11 +1,17 @@
 ---
 ---
 
-@import 'materialize';
-
+$brown: #917657;
 $gold: #DAAA00;
 $navy: #0C2340;
 $white: #ffffff;
+
+body {
+  background: $brown;
+}
+
+@import 'materialize';
+
 
 .uppercase {
   text-transform: uppercase;
@@ -13,6 +19,11 @@ $white: #ffffff;
 
 .parallax-container {
   height: auto;
+}
+
+.johnm {
+  background-color: #917657;
+  background-position: center;
 }
 
 #logo {

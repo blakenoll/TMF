@@ -7,7 +7,7 @@ $navy: #0C2340;
 $white: #ffffff;
 
 body {
-  background: #0D212E;
+  background: #0f212d;
 }
 
 @import 'materialize';
@@ -42,6 +42,10 @@ select {
 .johnm {
   background-color: #917657;
   background-position: center;
+}
+
+#bible {
+  height: 300px;
 }
 
 #logo {

@@ -20,6 +20,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://blakenoll.github.io/TMF
 twitter_username: jekyllrb
 github_username:  jekyll
+google_analytics: UA-92750701-1
 
 # Build settings
 markdown: kramdown

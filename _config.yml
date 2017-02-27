@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: The Master's Fellowship
 email: your-email@domain.com
-description: > # The Master’s Fellowship is an association of churches and church leaders affiliated with the ministries of John MacArthur. Our desire is to network like-minded pastors and churches who are faithful to the inerrant truth of biblical doctrine. The purpose of this network is to facilitate the mission of The Master’s University and Seminary in training up the next generation of pastors, teachers and faithful church members to know and serve the Lord Jesus Christ.
+description: The Master’s Fellowship is an association of churches and church leaders affiliated with the ministries of John
+  MacArthur. Our desire is to network like-minded pastors and churches who are faithful to the inerrant truth of biblical doctrine. The purpose of this network is to facilitate the mission of The Master’s University and Seminary in training up the next generation of pastors, teachers and faithful church members to know and serve the Lord Jesus Christ.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://themastersfellowship.org
 twitter_username: jekyllrb

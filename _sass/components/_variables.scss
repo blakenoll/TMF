@@ -33,7 +33,7 @@
 // 1. Colors
 // ==========================================================================
 
-$primary-color: #0D212E !default;
+$primary-color: #0f212d !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
@@ -150,7 +150,7 @@ $input-border: 1px solid $input-border-color !default;
 $input-background: #fff !default;
 $input-error-color: $error-color !default;
 $input-success-color: $success-color !default;
-$input-focus-color: $secondary-color !default;
+$input-focus-color: #fff !default;
 $input-font-size: 1rem !default;
 $input-margin: 0 0 20px 0 !default;
 $input-padding: 0 !default;

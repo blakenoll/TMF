@@ -1,7 +1,7 @@
 ---
 ---
 
-$brown: #917657;
+$brown: #886d4a;
 $gold: #DAAA00;
 $navy: #0C2340;
 $white: #ffffff;
@@ -12,6 +12,18 @@ body {
 
 @import 'materialize';
 
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav .brand-logo.right {
+    right: 0rem;
+    padding: 0;
+}
+
+.navblue {
+  width: 100%;
+}
 
 .uppercase {
   text-transform: uppercase;
@@ -30,4 +42,10 @@ body {
   width: 50%;
   margin-left: 25%;
   padding-top: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .icon {
+    display: none;
+  }
 }

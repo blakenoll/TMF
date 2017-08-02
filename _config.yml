@@ -27,6 +27,8 @@ google_analytics: UA-92750701-1
 # Build settings
 markdown: kramdown
 theme: minima
+sass:
+  style: compressed
 gems:
   - jekyll-feed
   - jekyll-seo-tag

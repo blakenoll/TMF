@@ -1,10 +1,11 @@
 ---
 ---
 
-$brown: #886d4a;
+$brown: #977125;
+$oldBrown: #886d4a;
 $gold: #DAAA00;
 $navy: #0C2340;
-$white: #ffffff;
+$white: #d0d0d0;
 
 body {
   background: #0f212d;
@@ -26,8 +27,17 @@ select {
   color: #9e9e9e;
 }
 
+.mxb-0 {
+  margin-bottom: 0px;
+}
+
 .navblue {
   width: 100%;
+}
+
+.py-1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .uppercase {
@@ -46,6 +56,10 @@ select {
 .benefits {
   padding-top: .5rem;
   padding-bottom: .3rem;
+}
+
+.white-txt {
+  color: $white;
 }
 
 #john {

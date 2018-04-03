@@ -1,72 +1,78 @@
 ---
 layout: default
 ---
-<div id="about" class="parallax-container section scrollspy">
+<div id="about" class="parallax-container scrollspy">
   <div class="parallax"><img src="{{ '/img/NavyMap.jpg' | prepend: site.url }}"></div>
-  <div class="container">
-        <img id="logo" src="{{ '/img/TMF_HeaderLo.png' | prepend: site.url }}" alt="The Master's Fellowship" class="center">
-        <p class="flow-text white-text center">The Master’s Fellowship is an association of churches and church leaders affiliated with the ministries of John MacArthur. Our desire is to network like-minded pastors and churches who are faithful to the inerrant truth of biblical doctrine. The purpose of this network is to facilitate the mission of The Master’s University and Seminary in training up the next generation of pastors, teachers and faithful church members to know and serve the Lord Jesus Christ.</p>
+<div class="container center flow-text py-1">
+        <img id="logo" src="{{ '/img/TMF_HeaderLogo.png' | prepend: site.url }}" class="py-1" alt="The Master's Fellowship">
+        <p class="white-txt">The Master’s Fellowship is an association of churches and church leaders affiliated with the ministries of John MacArthur. Our desire is to network like-minded pastors and churches who are faithful to the inerrant truth of biblical doctrine. The purpose of this network is to facilitate the mission of The Master’s University and Seminary in training up the next generation of pastors, teachers and faithful church members to know and serve the Lord Jesus Christ.</p>
   </div>
 </div>
 
-<div style="background-color: #886d4a;">
-  <div class="container">
+<div style="background-color: #917558;" class="z-depth-2">
+  <div class="container py-1">
     <div class="row" style="margin-bottom: 0px;">
       <div class="col s12">
         <div class="col s12 m6">
-          <img id="john" src="img/john.png" alt="" width="100%">
+<img id="john" src="img/john.png" alt="" width="100%" class="card z-depth-2">
         </div>
         <div class="col s12 m6">
           <p class="flow-text">I AM BOUND AND COMPELLED BY LOVE FOR THE TRUTH, WRITTEN AND INCARNATE. FOR ALL THOSE WHO SHARE THAT BLESSED BONDAGE AND PASSION I CALL YOU TO COME TOGETHER WITH ME IN THE MASTER’S FELLOWSHIP.</p>
-          <img src="img/johnsig.png" alt="" width="70%" style="float: right; padding-bottom: 30px;">
+          <img src="img/johnsig.png" alt="" width="60%" style="float: right; padding-bottom: 30px;">
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div id="bible"class="parallax-container">
+<div class="parallax-container">
   <div class="parallax"><img src="img/image001.png"></div>
+  <div class="container">
+    <div class="row mxb-0 py-1">
+      <div class="col s12 m10 offset-m1">
+        <div class="video-container z-depth-2">
+          <iframe src="https://player.vimeo.com/video/263012860" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="parallax-container" style="height: auto">
   <div class="parallax"><img  src="{{'/img/GoldMap.jpg' | prepend: site.url}}"></div>
-  <div class="container">
+  <div class="container py-1">
         <h1 id="benefits" class="black-text center uppercase section scrollspy">Some Benefits Include:</h1>
         <ul class="browser-default">
-          <li class="white-text flow-text benefits">Inclusion of your church name/website on The Master's Fellowship website <i style="font-size: 1.0rem">coming soon</i></li>
-          <li class="white-text flow-text benefits">Recommended resources from John MacArthur and various faculty members</li>
-          <li class="white-text flow-text benefits">Invitations to exclusive online member-only events like live Q&A's and interactive webcasts</li>
-          <li class="white-text flow-text benefits">10% off online coursework through The Master's University Online for active church members <i style="font-size: 1.0rem">excludes graduate studies, traditional students, and dual enrollment students</i></li>
-          <li class="white-text flow-text benefits">33% off courses offered through The Master's Seminary Institute for Church Leadership for active church members</li>
-          <li class="white-text flow-text benefits">10% off Hymns of Grace for active church members</li>
-          <li class="white-text flow-text benefits">Receive direct correspondence including artwork, posters, bulletin announcements, etc. regarding events of interest to your local congregation for both youth and adults</li>
+          <li class="white-txt flow-text benefits">Inclusion of your church name/website on The Master's Fellowship website <i style="font-size: 1.0rem">coming soon</i></li>
+          <li class="white-txt flow-text benefits">Recommended resources from John MacArthur and various faculty members</li>
+          <li class="white-txt flow-text benefits">Invitations to exclusive online member-only events like live Q&A's and interactive webcasts</li>
+          <li class="white-txt flow-text benefits">10% off online coursework through The Master's University Online for active church members <i style="font-size: 1.0rem">excludes graduate studies, traditional students, and dual enrollment students</i></li>
+          <li class="white-txt flow-text benefits">33% off courses offered through The Master's Seminary Institute for Church Leadership for active church members</li>
+          <li class="white-txt flow-text benefits">10% off Hymns of Grace for active church members</li>
+          <li class="white-txt flow-text benefits">Receive direct correspondence including artwork, posters, bulletin announcements, etc. regarding events of interest to your local congregation for both youth and adults</li>
         </ul>
   </div>
 </div>
 
-<div id="signup" class="parallax-container section scrollspy">
+<div id="signup" class="parallax-container scrollspy py-1">
   <div class="parallax"><img src="{{ '/img/NavyMap.jpg' | prepend: site.url }}"></div>
   <div class="container">
   <div class="col s6">
-    <h1 class="center white-text uppercase">Sign Up Today</h1>
+    <h1 class="center white-txt uppercase">Sign Up Today</h1>
   </div>
   {% include contact.html %}
   <div class="row">
-    <div class="col s12 m6 offset-m3">
-      <div class="col s3">
-        <a href="https://www.tms.edu/" target="_blank"><img src="img/TMF_Logo_FooterTMS.png" alt="" width="100%"></a>
-      </div>
-      <div class="col s6">
+    <div class="col s12 m6 offset-m3 center">
+      <div class="col s6 offset-s3">
         <img src="img/TMF_Logo_FooterCenter.png" alt="" width="100%" />
-      </div>
-      <div class="col s3">
-        <a href="https://www.masters.edu/" target="_blank"><img src="img/TMF_Logo_FooterTMU.png" alt="" width="100%"></a>
+        <br>
+        <img src="img/TMUS_Seal.png" alt="" width="100px">
       </div>
       <!-- <img src="img/TMF_Logo_Footer.png" alt="" width="85%" style="display: block; margin: auto"> -->
     </div>
   </div>
-  <p class="white-text center">© 2017</p>
+  <p class="white-txt center">© 2018</p>
   </div>
 </div>
 

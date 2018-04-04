@@ -35,6 +35,10 @@ select {
   width: 100%;
 }
 
+.navy-text {
+  color: $navy;
+}
+
 .py-1 {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -79,6 +83,8 @@ select {
   width: 70%;
   display: block;
   margin: auto;
+  max-width: 550px;
+  opacity: .8;
 }
 
 @media screen and (max-width: 320px) {

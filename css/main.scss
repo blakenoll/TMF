@@ -62,6 +62,14 @@ select {
   padding-bottom: .3rem;
 }
 
+.white-bg {
+  background-color: #ddddddc9;
+
+  h1 {
+    font-weight: 600;
+  }
+}
+
 .white-txt {
   color: $white;
 }

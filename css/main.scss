@@ -17,6 +17,10 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+  font-weight: 600;
+}
+
 nav .brand-logo.right {
     right: 0rem;
     padding: 0;
@@ -64,10 +68,6 @@ select {
 
 .white-bg {
   background-color: #ddddddc9;
-
-  h1 {
-    font-weight: 600;
-  }
 }
 
 .white-txt {

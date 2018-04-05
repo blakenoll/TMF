@@ -44,7 +44,7 @@ layout: default
 <div class="parallax-container">
   <div class="parallax"><img src="img/image001.png"></div>
   <div class="container py-1">
-    <div class="white-bg navy-text p-1 z-depth-2">
+    <div class="white-bg navy-text p-1 z-depth-2 card">
       <h1 id="benefits" class="center uppercase section scrollspy">Some Benefits Include:</h1>
       <ul class="browser-default">
         <li class="flow-text benefits">Inclusion of your church name/website on The Master's Fellowship website
@@ -83,14 +83,6 @@ layout: default
       <!-- <img src="img/TMF_Logo_Footer.png" alt="" width="85%" style="display: block; margin: auto"> -->
     </div>
   </div>
-  <p class="white-txt center">© 2018</p>
+  <p class="white-txt center">© {{"today" | date: "%Y"}}</p>
   </div>
 </div>
-
-<script type="text/javascript">
-$(document).ready(function(){
-  $('.parallax').parallax();
-  $('.scrollspy').scrollSpy();
-
-});
-</script>

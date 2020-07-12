@@ -1,0 +1,8 @@
+# main links
+main:
+  - title: "About This Chapter"
+    url: /
+  - title: "Upcoming Events"
+    url: /
+  # - title: "Sample Posts"
+  #   url: /year-archive/

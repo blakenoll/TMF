@@ -1,0 +1,114 @@
+---
+---
+
+$brown: #977125;
+$oldBrown: #886d4a;
+$gold: #DAAA00;
+$navy: #0C2340;
+$white: #d0d0d0;
+
+body {
+  background: #0f212d;
+}
+
+@import 'materialize';
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+nav .brand-logo.right {
+    right: 0rem;
+    padding: 0;
+}
+
+select {
+  background-color: transparent;
+  color: #9e9e9e;
+}
+
+.mxb-0 {
+  margin-bottom: 0px;
+}
+
+.navblue {
+  width: 100%;
+}
+
+.navy-text {
+  color: $navy;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.parallax-container {
+  min-height: 100vh;
+  height: auto;
+}
+
+.johnm {
+  background-color: #917657;
+  background-position: center;
+}
+
+.benefits {
+  padding-top: .5rem;
+  padding-bottom: .3rem;
+}
+
+.white-bg {
+  background-color: #ddddddc9;
+}
+
+.white-txt {
+  color: $white;
+}
+
+.white-txt-lg {
+  color: $white;
+  font-size: 1.7rem;
+  line-height: 110%;
+  margin: .85rem 0 .68rem 0;
+}
+
+#john {
+  display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+
+
+#bible {
+  height: 300px;
+}
+
+#logo {
+  width: 70%;
+  display: block;
+  margin: auto;
+  max-width: 550px;
+  opacity: .8;
+}
+
+@media screen and (max-width: 320px) {
+  .icon {
+    display: none;
+  }
+}

@@ -1,8 +1,12 @@
 # main links
 main:
+  - title: "Home"
+    url: /
+  - title: "About The Masters Fellowship"
+    url: /
   - title: "About This Chapter"
-    url: /
-  - title: "Upcoming Events"
-    url: /
+    url: /colorado/about.html
+  # - title: "Upcoming Events"
+  #   url: /
   # - title: "Sample Posts"
   #   url: /year-archive/

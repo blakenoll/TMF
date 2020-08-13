@@ -4,10 +4,12 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Chapter Name
+  description: E. G. TMF - Nebraska
 - type: text
   name: layout
-  label: layout
+  label: Page Layout
+  description: This should be "splash" for Chapter Landing Pages
 - type: field_group
   name: header
   label: header
@@ -20,24 +22,26 @@ fields:
     label: overlay_filter
   - type: file
     name: overlay_image
-    label: overlay_image
+    label: Main Background Image
+    description: The background image shown
 - type: text
   name: excerpt
-  label: excerpt
+  label: Brief Chapter Description
 - type: field_group_list
   name: intro
   label: intro
   fields:
   - type: textarea
     name: excerpt
-    label: excerpt
+    label: Description of TMF
 - type: field_group_list
   name: feature_row
   label: feature_row
   fields:
   - type: file
     name: image_path
-    label: image_path
+    label: Path to Image for Feature Row
+    description: This should start with "assets/images", e. g. "assets/images/mountains.jpg"
   - type: text
     name: alt
     label: alt

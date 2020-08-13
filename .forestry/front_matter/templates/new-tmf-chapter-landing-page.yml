@@ -51,3 +51,5 @@ fields:
   - type: text
     name: excerpt
     label: excerpt
+pages:
+- pennsylvania/tmf-pennsylvania.md

@@ -34,5 +34,6 @@ plugins:
   - jekyll-include-cache
 exclude:
   - [vendor]
+  - vendor
   - Gemfile
   - Gemfile.lock

@@ -1,0 +1,49 @@
+---
+label: New TMF Chapter - Landing Page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: layout
+  label: layout
+- type: field_group
+  name: header
+  label: header
+  fields:
+  - type: text
+    name: overlay_color
+    label: overlay_color
+  - type: text
+    name: overlay_filter
+    label: overlay_filter
+  - type: file
+    name: overlay_image
+    label: overlay_image
+- type: text
+  name: excerpt
+  label: excerpt
+- type: field_group_list
+  name: intro
+  label: intro
+  fields:
+  - type: textarea
+    name: excerpt
+    label: excerpt
+- type: field_group_list
+  name: feature_row
+  label: feature_row
+  fields:
+  - type: file
+    name: image_path
+    label: image_path
+  - type: text
+    name: alt
+    label: alt
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: excerpt
+    label: excerpt

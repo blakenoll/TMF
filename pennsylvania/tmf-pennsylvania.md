@@ -8,6 +8,10 @@ header:
 excerpt: Welcome to The Master's Fellowship of Pennsylvania
 intro: []
 feature_row:
+- image_path: "/assets/images/actionvance-guy5as3gvga-unsplash.jpg"
+  alt: Philly Skyline
+  title: Get Connected
+  excerpt: ''
 - image_path: "/assets/images/acbc-conference-1.png"
   alt: ACBC Conference
   title: Basics of Biblical Counseling

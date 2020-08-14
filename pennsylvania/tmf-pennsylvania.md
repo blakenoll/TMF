@@ -2,8 +2,8 @@
 title: TMF - Pennsylvania
 layout: splash
 header:
-  overlay_color: ''
-  overlay_filter: ''
+  overlay_color: "#000"
+  overlay_filter: "0.25"
   overlay_image: "/assets/images/biegun-wschodni-vd3l-rn_qnw-unsplash.jpg"
 excerpt: Welcome to The Master's Fellowship of Pennsylvania
 intro: []

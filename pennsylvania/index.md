@@ -4,7 +4,7 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.25"
-  overlay_image: "/assets/images/biegun-wschodni-vd3l-rn_qnw-unsplash.jpg"
+  overlay_image: "/assets/images/actionvance-guy5as3gvga-unsplash.jpg"
 excerpt: Welcome to The Master's Fellowship of Pennsylvania
 intro:
 - excerpt: The Master’s Fellowship is an association of pastors and missionaries bound
@@ -14,8 +14,8 @@ intro:
     and networking like-minded pastors and missionaries who share core biblical convictions
     of doctrine and praxis.
 feature_row:
-- image_path: "/assets/images/actionvance-guy5as3gvga-unsplash.jpg"
-  alt: Philly Skyline
+- image_path: "/assets/images/biegun-wschodni-vd3l-rn_qnw-unsplash.jpg"
+  alt: Shepherd with Sheep
   title: Get Connected
   excerpt: ''
 - image_path: "/assets/images/acbc-conference-1.png"

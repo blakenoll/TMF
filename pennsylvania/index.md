@@ -5,6 +5,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.25"
   overlay_image: "/assets/images/actionvance-guy5as3gvga-unsplash.jpg"
+  call_to_action: Connect With Us
 excerpt: Welcome to The Master's Fellowship of Pennsylvania
 intro:
 - excerpt: The Master’s Fellowship is an association of pastors and missionaries bound

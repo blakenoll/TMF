@@ -24,12 +24,21 @@ fields:
     name: overlay_image
     label: Main Background Image
     description: The background image shown
-  - name: call_to_action
-    type: text
-    config:
-      required: false
+  - name: actions
+    type: field_group
+    config: {}
+    fields:
+    - name: label
+      type: text
+      config:
+        required: false
+      label: Button Label
+    - name: url
+      type: text
+      config:
+        required: false
+      label: Button URL
     label: Main Button
-    description: This is what will display on the main button.
 - type: text
   name: excerpt
   label: Brief Chapter Description

@@ -7,8 +7,8 @@ header:
   overlay_image: "/assets/images/actionvance-guy5as3gvga-unsplash.jpg"
   call_to_action: Connect With Us
   actions:
-    label: Connect With Us
-    url: http://themastersfellowship.org
+    label: '"Connect With Us"'
+    url: '"http://themastersfellowship.org"'
 excerpt: Welcome to The Master's Fellowship of Pennsylvania
 intro:
 - excerpt: The Master’s Fellowship is an association of pastors and missionaries bound
@@ -34,6 +34,5 @@ feature_row:
 
 ---
 {% include feature_row id="intro" type="center" %}
-
   
 {% include feature_row %}

@@ -6,7 +6,13 @@ header:
   overlay_filter: "0.25"
   overlay_image: "/assets/images/biegun-wschodni-vd3l-rn_qnw-unsplash.jpg"
 excerpt: Welcome to The Master's Fellowship of Pennsylvania
-intro: []
+intro:
+- excerpt: The Master’s Fellowship is an association of pastors and missionaries bound
+    together by love for the Living Word, The Master, our Lord Jesus, the church for
+    which He died, and the bold proclamation of the exposited written word. The Fellowship’s
+    purpose is to support the mission and leadership of the local church by connecting
+    and networking like-minded pastors and missionaries who share core biblical convictions
+    of doctrine and praxis.
 feature_row:
 - image_path: "/assets/images/actionvance-guy5as3gvga-unsplash.jpg"
   alt: Philly Skyline

@@ -29,7 +29,6 @@ feature_row:
   title: 'Upcoming Event: Camping!'
   excerpt: " Camping at Promised Land State Park, August 16-18"
   alt: Camping Picture
-published: false
 
 ---
 {% include feature_row id="intro" type="center" %}

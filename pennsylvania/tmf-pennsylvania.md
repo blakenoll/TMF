@@ -26,3 +26,7 @@ feature_row:
 published: false
 
 ---
+{% include feature_row id="intro" type="center" %}
+
+  
+{% include feature_row %}

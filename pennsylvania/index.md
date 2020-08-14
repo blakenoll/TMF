@@ -7,9 +7,8 @@ header:
   overlay_image: "/assets/images/skyline.png"
   call_to_action: Connect With Us
   actions:
-    - label: '"Connect With Us"'
-      url: '"http://themastersfellowship.org"'
-
+    label: Connect With Us
+    url: http://themastersfellowship.org
 excerpt: Welcome to The Master's Fellowship of Pennsylvania
 intro:
 - excerpt: The Master’s Fellowship is an association of pastors and missionaries bound
@@ -24,9 +23,9 @@ feature_row:
   title: 'The Basics of Biblical Counseling Conference <br>August 28-29, 2020. '
   excerpt: Executive Director, Dale Johnson will be our speaker for this important
     conference. Go to Biblicalcounseling.com for registration and hotel information
-- image_path: "/assets/images/biegun-wschodni-vd3l-rn_qnw-unsplash.jpg"
+- image_path: "/assets/images/sheep.png"
   alt: Shepherd with Sheep
-  title: Get Connected
+  title: Stay Connected with TMF Penn
   excerpt: ''
 - image_path: "/assets/images/camping-2.png"
   title: 'Upcoming Event: Camping!'

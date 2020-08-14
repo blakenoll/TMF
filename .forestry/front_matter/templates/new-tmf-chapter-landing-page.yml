@@ -52,4 +52,4 @@ fields:
     name: excerpt
     label: excerpt
 pages:
-- pennsylvania/tmf-pennsylvania.md
+- pennsylvania/index.md

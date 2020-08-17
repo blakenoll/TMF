@@ -15,10 +15,10 @@ feature_row:
   alt: windmill
   title: Spiritual Resources & Encouragement
   excerpt: When connected with Central Valley, you'll have all the resources you need.
-- image_path: ''
-  alt: ''
-  title: ''
-  excerpt: ''
+- image_path: "/assets/images/love-your-neighbor.jpg"
+  alt: love-your-neighbor
+  title: Get Connected
+  excerpt: Feel free to contact us to find out all about how to get connected.
 - image_path: ''
   alt: ''
   title: ''

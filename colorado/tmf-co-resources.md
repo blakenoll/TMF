@@ -8,7 +8,6 @@ header:
 excerpt: ''
 intro: []
 feature_row: []
-published: false
 
 ---
 This is a resources page.

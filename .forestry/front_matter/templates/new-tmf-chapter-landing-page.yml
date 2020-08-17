@@ -52,5 +52,5 @@ fields:
     name: excerpt
     label: excerpt
 pages:
-- centralvalleyca/central-valley-california.md
+- centralvalleyca/index.md
 - pennsylvania/index.md

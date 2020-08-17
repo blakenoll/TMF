@@ -24,7 +24,6 @@ feature_row:
   title: Biblical Principles in Practice
   excerpt: Join brothers with convictions for being doers of the word and encouraging
     others in the same way.
-published: false
 
 ---
 {% include feature_row id="intro" type="center" %}

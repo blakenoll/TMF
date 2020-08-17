@@ -19,10 +19,11 @@ feature_row:
   alt: love-your-neighbor
   title: Get Connected
   excerpt: Feel free to contact us to find out all about how to get connected.
-- image_path: ''
-  alt: ''
-  title: ''
-  excerpt: ''
+- image_path: "/assets/images/cross.jpg"
+  alt: cross
+  title: Biblical Principles in Practice
+  excerpt: Join brothers with convictions for being doers of the word and encouraging
+    others in the same way.
 published: false
 
 ---

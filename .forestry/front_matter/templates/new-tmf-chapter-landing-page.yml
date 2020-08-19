@@ -81,4 +81,5 @@ fields:
     default: btn--primary
 pages:
 - centralvalleyca/index.md
+- colorado/index.html
 - pennsylvania/index.md

@@ -10,4 +10,4 @@ intro: []
 feature_row: []
 
 ---
-This is a resources page.
+There's nothing here at the moment. Please check back soon for updates!

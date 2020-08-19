@@ -1,4 +1,10 @@
 ---
 label: No Template
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Page Layout
+  default: single

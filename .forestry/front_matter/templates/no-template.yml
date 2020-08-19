@@ -8,3 +8,5 @@ fields:
     required: false
   label: Page Layout
   default: single
+pages:
+- colorado/tmf-co-resources.md

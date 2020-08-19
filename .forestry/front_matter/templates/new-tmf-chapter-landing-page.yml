@@ -51,6 +51,34 @@ fields:
   - type: text
     name: excerpt
     label: excerpt
+  - name: add_button
+    type: boolean
+    label: Add Button
+  - name: url
+    type: text
+    config:
+      required: false
+    label: Button URL
+    showOnly:
+      field: add_button
+      value: true
+  - name: btn_label
+    type: text
+    config:
+      required: false
+    label: Button Label
+    showOnly:
+      field: add_button
+      value: true
+  - name: btn_class
+    type: text
+    config:
+      required: false
+    label: Button Class
+    showOnly:
+      field: add_button
+      value: true
+    default: btn--primary
 pages:
 - centralvalleyca/index.md
 - pennsylvania/index.md

@@ -1,6 +1,7 @@
 ---
-label: No Template
+label: About Page
 hide_body: false
+display_field: layout
 fields:
 - name: layout
   type: text

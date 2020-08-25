@@ -1,4 +1,10 @@
 ---
 label: Resources Page
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: true
+  label: Page Layout
+  default: single

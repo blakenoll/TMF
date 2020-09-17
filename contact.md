@@ -12,9 +12,7 @@ Thank you for your interest in The Master's Fellowship! We look forward to heari
 
 <form
 action="https://formspree.io/xaylwald"
-method="POST"
-
-> 
+method="POST"> 
 
 <label>
 Your Name:

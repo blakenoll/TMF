@@ -11,4 +11,5 @@ fields:
   default: single
 pages:
 - colorado/resources.md
+- contact.md
 - pennsylvania/conference.md

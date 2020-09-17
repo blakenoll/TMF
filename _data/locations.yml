@@ -1,0 +1,13 @@
+- title: "TMF Colorado"
+  data_set: "02"
+  location:
+    latitude: 39.893892
+    longitude: -105.3367487
+  url: "https://themastersfellowship.org/colorado"
+
+- title: "TMF Nebraska"
+  data_set: "02"
+  location:
+    latitude: 40.824988
+    longitude: -97.8847343
+  url: "https://themastersfellowship.org/nebraska"

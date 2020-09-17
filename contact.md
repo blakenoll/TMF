@@ -2,7 +2,6 @@
 layout: single
 
 ---
-
 <h2>Get Connected</h2>
 
 <p>

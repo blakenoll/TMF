@@ -32,7 +32,6 @@ theme: minima
 sass:
   style: compressed
 plugins:
-  - jekyll-maps
   - jekyll-seo-tag
   - jekyll-include-cache
   - jekyll-feed

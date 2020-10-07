@@ -1,0 +1,38 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.893920,
+                    -105.335230
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "colorado",
+                "description": "TMF's Colorado Chapter",
+                "name": "TMF's Colorado Chapter",
+                "chapterid": "01"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.158167,
+                    52.071634
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "cafe",
+                "hours": "8am - 9:30pm",
+                "description": "Fresh coffee and delicious cakes in an snug cafe. We're part of a larger chain of patisseries and cafes.",
+                "name": "Josie's Cafe Ipswich",
+                "phone": "+44 1717 17171",
+                "storeid": "13"
+            }
+        }
+    ]
+}

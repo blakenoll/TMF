@@ -8,3 +8,5 @@ fields:
     required: true
   label: Page Layout
   default: single
+pages:
+- nebraska/resources.md

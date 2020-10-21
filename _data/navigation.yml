@@ -2,11 +2,9 @@
 main:
   - title: "Home"
     url: /
-  - title: "About The Masters Fellowship"
-    url: /
-  - title: "About This Chapter"
-    url: /colorado/about.html
-  # - title: "Upcoming Events"
-  #   url: /
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Our Vision"
+    url: /tmf_vision.pdf
+  - title: "Our Purpose"
+    url: /tmf_purpose_position.pdf
+  - title: "Our Locations"
+    url: /locations.html

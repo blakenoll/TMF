@@ -1,13 +1,14 @@
 ---
+title: "Get Connected"
 layout: single
-
+header:
+    overlay_color: "#000"
+    overlay_filter: "0.25"
+    overlay_image: /assets/images/puzzle.jpg
 ---
-<h2>Get Connected</h2>
 
 <p>
-
-Thank you for your interest in The Master's Fellowship! We look forward to hearing from you. Please drop us a line below for more information on how to get connected.
-
+Thank you for your interest in The Master's Fellowship! We look forward to hearing from you. Please drop us a line below for more information on how to get connected.  
 </p>
 
 <form

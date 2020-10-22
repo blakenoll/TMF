@@ -6,7 +6,7 @@ function initMap() {
      });
 
     // Load the stores GeoJSON onto the map.
-    map.data.loadGeoJson('chapters.json', {idPropertyName: 'chapterid'});
+    map.data.loadGeoJson('stores.json', {idPropertyName: 'storeid'});
 
     const apiKey = 'AIzaSyAwy6PKU4r7ICmQVsW-e0Pu0-tA9b9MpGM';
     const infoWindow = new google.maps.InfoWindow();
@@ -16,12 +16,14 @@ function initMap() {
         const category = event.feature.getProperty('category');
         const name = event.feature.getProperty('name');
         const description = event.feature.getProperty('description');
+        const hours = event.feature.getProperty('hours');
+        const phone = event.feature.getProperty('phone');
         const position = event.feature.getGeometry().get();
         const content = `
-        <h2>${name}</h2><p>${description}</p>
-        <p><b>Open:</b> ${hours}<br/><b>Phone:</b> ${phone}</p>
+          <h2>${name}</h2><p>${description}</p>
+          <p><b>Open:</b> ${hours}<br/><b>Phone:</b> ${phone}</p>
         `;
-
+    
         infoWindow.setContent(content);
         infoWindow.setPosition(position);
         infoWindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
